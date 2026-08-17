@@ -1,12 +1,12 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "buildCommand": "cd frontend && npm run build",
-  "outputDirectory": "frontend/dist",
+  "outputDirectory": "cd frontend && npm run dev",
   "installCommand": "cd frontend && npm install",
   "rewrites": [
     {
-      "source": "/case-study/duta",
-      "destination": "/index.html"
+      "source": "/api/:path*",
+      "destination": "/api"
     },
     {
       "source": "/(.*)",

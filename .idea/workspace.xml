@@ -5,75 +5,83 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa4787c7-9b1d-4e1e-97bb-92e740bbfde6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/amith-professional-portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/amith-professional-portfolio.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vercel.json" beforeDir="false" afterPath="$PROJECT_DIR$/vercel.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.2886263348090805" />
-      <entry key="MS500" value="3.1134234280753152" />
-      <entry key="S2" value="4.388682327316002" />
-      <entry key="S5" value="4.741317682871118" />
-      <entry key="S10" value="4.86816466776045" />
-      <entry key="S30" value="4.975607499192153" />
-      <entry key="S60" value="5.887982601982831" />
-      <entry key="M2" value="15.042622603723352" />
-      <entry key="M5" value="56.40420113211662" />
-      <entry key="M10" value="96.4077832104704" />
-      <entry key="M15" value="116.11506541445718" />
-      <entry key="M30" value="140.29352907516218" />
-      <entry key="H1" value="154.3803199492033" />
-      <entry key="H2" value="161.98819191948883" />
-      <entry key="H4" value="165.94224647053673" />
-      <entry key="D1" value="169.31638815794244" />
-      <entry key="W1" value="169.90216034702064" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.000000000000046" />
+      <entry key="S2" value="1.0028636366641452" />
+      <entry key="S5" value="1.5572524842028752" />
+      <entry key="S10" value="4.425328283388376" />
+      <entry key="S30" value="12.824583042531234" />
+      <entry key="S60" value="19.205332523861696" />
+      <entry key="M2" value="33.05510004422654" />
+      <entry key="M5" value="64.73638517445418" />
+      <entry key="M10" value="102.47874720658352" />
+      <entry key="M15" value="133.96936640115942" />
+      <entry key="M30" value="194.6616888249726" />
+      <entry key="H1" value="245.95012373880942" />
+      <entry key="H2" value="279.85662237334947" />
+      <entry key="H4" value="299.42669251983136" />
+      <entry key="D1" value="317.2562260367875" />
+      <entry key="W1" value="320.4614200174723" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="5.583510045734578E-88" />
-      <entry key="S5" value="1.2554871712928477E-35" />
-      <entry key="S10" value="3.580857265387413E-18" />
-      <entry key="S30" value="1.8600262971043752E-6" />
-      <entry key="S60" value="0.0018139532037544156" />
-      <entry key="M2" value="0.059205938235251276" />
-      <entry key="M5" value="0.4872091710951349" />
-      <entry key="M10" value="0.9864209099730724" />
-      <entry key="M15" value="1.248290813744082" />
-      <entry key="M30" value="1.5799317942018918" />
-      <entry key="H1" value="1.777565159593097" />
-      <entry key="H2" value="1.8854959463722405" />
-      <entry key="H4" value="1.9419017784372439" />
-      <entry key="D1" value="1.9901972935697212" />
-      <entry key="W1" value="1.998596654335521" />
+      <entry key="S2" value="2.563043640451162E-148" />
+      <entry key="S5" value="9.193955563604755E-60" />
+      <entry key="S10" value="3.0321746762192552E-30" />
+      <entry key="S30" value="1.474999548761623E-10" />
+      <entry key="S60" value="1.3702239516491781E-5" />
+      <entry key="M2" value="0.004858653882063956" />
+      <entry key="M5" value="0.2070113073649695" />
+      <entry key="M10" value="0.8741170334276341" />
+      <entry key="M15" value="1.496758669818927" />
+      <entry key="M30" value="2.6712001784296797" />
+      <entry key="H1" value="3.6318208349044285" />
+      <entry key="H2" value="4.254598168005269" />
+      <entry key="H4" value="4.610427773199368" />
+      <entry key="D1" value="4.932583535215255" />
+      <entry key="W1" value="4.990306168105522" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.255341438142419" />
-      <entry key="MS500" value="3.0991223677060606" />
-      <entry key="S2" value="4.383775540996385" />
-      <entry key="S5" value="4.7392076720712195" />
-      <entry key="S10" value="4.86708316870821" />
-      <entry key="S30" value="4.975237978806029" />
-      <entry key="S60" value="5.889368538116296" />
-      <entry key="M2" value="15.099769748730846" />
-      <entry key="M5" value="56.88627806409742" />
-      <entry key="M10" value="97.38929368968375" />
-      <entry key="M15" value="117.35927878318506" />
-      <entry key="M30" value="141.87091781412812" />
-      <entry key="H1" value="156.15646424593373" />
-      <entry key="H2" value="163.87293677881365" />
-      <entry key="H4" value="167.88376209738917" />
-      <entry key="D1" value="171.3065195804503" />
-      <entry key="W1" value="171.90074755364463" />
+      <entry key="MS100" value="0.9592641193252643" />
+      <entry key="MS500" value="0.9917167307383389" />
+      <entry key="S2" value="1.0007811170879353" />
+      <entry key="S5" value="1.5560270253380022" />
+      <entry key="S10" value="4.423686796954842" />
+      <entry key="S30" value="12.822948910396766" />
+      <entry key="S60" value="19.203315637132274" />
+      <entry key="M2" value="33.056405505777455" />
+      <entry key="M5" value="64.93897402484367" />
+      <entry key="M10" value="103.34829823871067" />
+      <entry key="M15" value="135.46168298870194" />
+      <entry key="M30" value="197.32930861270756" />
+      <entry key="H1" value="249.57958021083272" />
+      <entry key="H2" value="284.10984882304007" />
+      <entry key="H4" value="304.0363797792712" />
+      <entry key="D1" value="322.1886778583162" />
+      <entry key="W1" value="325.45170715637516" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -81,19 +89,25 @@
   "associatedIndex": 2
 }]]></component>
   <component name="ProjectId" id="3I2dy010lwJXlIccgJtq79Qfswz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/amith/Documents/GitHub/amith-professional-portfolio",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -101,6 +115,14 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\amith\Documents\GitHub\amith-professional-portfolio" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\amith\Documents\GitHub\amith-professional-portfolio" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
