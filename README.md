@@ -134,3 +134,22 @@ The attached resume can be placed in `frontend/public/` and named:
 `Amith_Vardhan_Reddy_Surasani_Resume.docx`
 
 The UI automatically shows the Resume CTA; if the file is absent, the button is hidden by the frontend.
+
+
+## Deploy as one application on Render
+
+This project can be deployed as **one Render Web Service**. The Dockerfile builds the React/Vite frontend and then runs FastAPI as the single public server. FastAPI serves both the `/api/*` endpoints and the compiled React files.
+
+### Render deployment
+
+1. Push this repository to GitHub.
+2. In Render, choose **New → Web Service** and connect the repository.
+3. In the service settings choose **Docker** as the language/runtime.
+4. Leave the Dockerfile path as `Dockerfile` if it is in the repository root.
+5. Choose the **Free** instance if you want to start without paying.
+6. Do not add a build command or start command; Render uses the Dockerfile.
+7. Create the Web Service and wait for the Docker build/deploy to finish.
+8. Open the generated `onrender.com` URL. The React portfolio and FastAPI API will now be served from the same URL.
+
+The frontend uses relative `/api/...` URLs in production, so **do not set `VITE_API_BASE_URL` on Render**.
+

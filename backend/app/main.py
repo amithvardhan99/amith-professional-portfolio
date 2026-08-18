@@ -4,6 +4,7 @@ import json
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, EmailStr, Field
 
 from .data import PROFILE
@@ -11,6 +12,7 @@ from .data import PROFILE
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
 MESSAGES_FILE = DATA_DIR / "messages.json"
+FRONTEND_DIST = BASE_DIR.parent / "frontend" / "dist"
 
 app = FastAPI(
     title="Amith Portfolio API",
@@ -68,3 +70,9 @@ def create_contact_message(payload: ContactMessage):
     )
 
     return {"message": "Thanks — your message has been received."}
+
+
+# Serve the production React/Vite build from the same FastAPI service.
+# This makes the portfolio a single Render web service and keeps /api/* available.
+if FRONTEND_DIST.exists():
+    app.mount("/", StaticFiles(directory=FRONTEND_DIST, html=True), name="frontend")
